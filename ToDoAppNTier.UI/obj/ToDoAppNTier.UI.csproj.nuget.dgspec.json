@@ -1,0 +1,320 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.UI\\ToDoAppNTier.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Business\\ToDoAppNTier.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Business\\ToDoAppNTier.Business.csproj",
+        "projectName": "ToDoAppNTier.Business",
+        "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Business\\ToDoAppNTier.Business.csproj",
+        "packagesPath": "C:\\Users\\umurg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umurg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.DataAccess\\ToDoAppNTier.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.DataAccess\\ToDoAppNTier.DataAccess.csproj"
+              },
+              "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Dtos\\ToDoAppNTier.Dtos.csproj": {
+                "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Dtos\\ToDoAppNTier.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.DataAccess\\ToDoAppNTier.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.DataAccess\\ToDoAppNTier.DataAccess.csproj",
+        "projectName": "ToDoAppNTier.DataAccess",
+        "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.DataAccess\\ToDoAppNTier.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\umurg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umurg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Entities\\ToDoAppNTier.Entities.csproj": {
+                "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Entities\\ToDoAppNTier.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Dtos\\ToDoAppNTier.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Dtos\\ToDoAppNTier.Dtos.csproj",
+        "projectName": "ToDoAppNTier.Dtos",
+        "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Dtos\\ToDoAppNTier.Dtos.csproj",
+        "packagesPath": "C:\\Users\\umurg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umurg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Entities\\ToDoAppNTier.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Entities\\ToDoAppNTier.Entities.csproj",
+        "projectName": "ToDoAppNTier.Entities",
+        "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Entities\\ToDoAppNTier.Entities.csproj",
+        "packagesPath": "C:\\Users\\umurg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umurg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.UI\\ToDoAppNTier.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.UI\\ToDoAppNTier.UI.csproj",
+        "projectName": "ToDoAppNTier.UI",
+        "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.UI\\ToDoAppNTier.UI.csproj",
+        "packagesPath": "C:\\Users\\umurg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umurg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Business\\ToDoAppNTier.Business.csproj": {
+                "projectPath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.Business\\ToDoAppNTier.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
