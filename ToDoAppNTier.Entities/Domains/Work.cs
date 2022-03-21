@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ToDoAppNTier.Entities.Domains
 {
-    public class Work
-    {
-        public int Id { get; set; }
+    public class Work : BaseEntity
+    {        
         public string Definition { get; set; }
         public bool IsComplete { get; set; }
     }

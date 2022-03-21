@@ -2,7 +2,6 @@ C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppN
 C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\bin\Debug\net5.0\ToDoAppNTier.Entities.dll
 C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\bin\Debug\net5.0\ref\ToDoAppNTier.Entities.dll
 C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\bin\Debug\net5.0\ToDoAppNTier.Entities.pdb
-C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\obj\Debug\net5.0\ToDoAppNTier.Entities.csproj.AssemblyReference.cache
 C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\obj\Debug\net5.0\ToDoAppNTier.Entities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\obj\Debug\net5.0\ToDoAppNTier.Entities.AssemblyInfoInputs.cache
 C:\Users\umurg\Desktop\Udemy Yavuz Selim Hoca\TodoAppNTier\TodoAppNTier\ToDoAppNTier.Entities\obj\Debug\net5.0\ToDoAppNTier.Entities.AssemblyInfo.cs

@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoAppNTier.DataAccess.Interfaces;
+using ToDoAppNTier.Entities.Domains;
 
 namespace ToDoAppNTier.DataAccess.UnitOfWork
 {
     public interface IUow
     {
-        IRepository<T> GetRepository<T>() where T : class, new();
+        IRepository<T> GetRepository<T>() where T : BaseEntity;
         Task SaveChanges();
     }
 }

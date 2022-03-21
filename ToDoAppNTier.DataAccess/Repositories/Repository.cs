@@ -7,10 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using ToDoAppNTier.DataAccess.Contexts;
 using ToDoAppNTier.DataAccess.Interfaces;
+using ToDoAppNTier.Entities.Domains;
 
 namespace ToDoAppNTier.DataAccess.Repositories
 {
-    public class Repository<T> : IRepository<T> where T : class, new()
+    public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly TodoContext _context;
 
@@ -36,7 +37,7 @@ namespace ToDoAppNTier.DataAccess.Repositories
             //Asnotracking varsa bunu yap : değilse bunu yap.
         }
 
-        public async Task<T> GetById(object id)
+        public async Task<T> Find(object id)
         {
             return await _context.Set<T>().FindAsync(id);
         }
@@ -47,13 +48,13 @@ namespace ToDoAppNTier.DataAccess.Repositories
         }
 
         public void Remove(T entity)
-        {
+        {            
             _context.Set<T>().Remove(entity);
         }
 
-        public void Update(T entity)
-        {
-           _context.Set<T>().Update(entity);
+        public void Update(T entity, T unchanged)
+        {            
+            _context.Entry(unchanged).CurrentValues.SetValues(entity);            
         }
     }
 }

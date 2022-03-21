@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iYnZESMAfkOzv+YsgfGug9tfcoSiSXh3fQoG8M0EJjkwh9suRk7MKF1lGLLfTTK8eO+H/0qauj1V1ri92BR0Gg==",
+  "dgSpecHash": "5nHm37v3BRMWihQyOn9lIviraSmqI9VanyUpn8AaIlyWdf3pF5so0QrE0PDKEIHoWDu9o3zcKqWWbJG+apTT5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\umurg\\Desktop\\Udemy Yavuz Selim Hoca\\TodoAppNTier\\TodoAppNTier\\ToDoAppNTier.UI\\ToDoAppNTier.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\umurg\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\umurg\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\umurg\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.2.3\\fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -65,7 +68,7 @@
     "C:\\Users\\umurg\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\umurg\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\umurg\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\umurg\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
